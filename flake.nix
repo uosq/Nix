@@ -20,15 +20,15 @@ outputs = { nixpkgs, home-manager, stylix, ... }@inputs: {
    	system = "x86_64-linux";
      modules = [
 			stylix.nixosModules.stylix
-     	./configuration.nix
+     		./configuration.nix
 
-			home-manager.nixosModules.home-manager {
-				home-manager.useGlobalPkgs = true;
-				home-manager.useUserPackages = true;
-				home-manager.users.tevin = import ./home.nix;
-				home-manager.backupFileExtension = "backup";
-				#home-manager.sharedModules = [ stylix.homeModules.stylix ];
-			}
+				home-manager.nixosModules.home-manager {
+					home-manager.useGlobalPkgs = true;
+					home-manager.useUserPackages = true;
+					home-manager.users.tevin = import ./home.nix;
+					home-manager.backupFileExtension = "backup";
+					#home-manager.sharedModules = [ stylix.homeModules.stylix ];
+				}
 			];
   	};
 	};
