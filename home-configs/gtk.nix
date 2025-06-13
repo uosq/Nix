@@ -1,15 +1,16 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
 
-	gtk = {
-		theme = {
-			package = pkgs.nordic;
-			name = "Nordic";
-		};
+  gtk = {
+    theme = {
+      package = pkgs.nordic;
+      name = "Nordic";
+    };
 
-		iconTheme = {
-			package = pkgs.papirus-nord;
-			name = "Papirus-Nord";
-		};
-	};
+    iconTheme = {
+      package = pkgs.papirus-nord;
+      name = "Papirus-Nord";
+    };
+  };
 
 }

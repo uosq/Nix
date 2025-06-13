@@ -1,5 +1,6 @@
-{ config, pkgs, ... }: {
-	programs.nano.nanorc = ''
-	set tabsize 2
-	'';
+{ config, pkgs, ... }:
+{
+  programs.nano.nanorc = ''
+    	set tabsize 2
+    	'';
 }

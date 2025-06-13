@@ -1,10 +1,11 @@
-{ config, pkgs, ... }: {
+{ config, pkgs, ... }:
+{
 
-	services.sunshine = {
-		enable = true;
-		autoStart = false;
-		capSysAdmin = true;
-		openFirewall = true;
-	};
+  services.sunshine = {
+    enable = true;
+    autoStart = false;
+    capSysAdmin = true;
+    openFirewall = true;
+  };
 
 }

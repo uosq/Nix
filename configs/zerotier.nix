@@ -1,5 +1,6 @@
-{ config, pkgs, ... }: {
+{ config, pkgs, ... }:
+{
 
-	services.zerotierone.enable = true;
+  services.zerotierone.enable = true;
 
 }
