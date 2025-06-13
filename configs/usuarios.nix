@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ ... }:
 
 {
   # não esquecer de usar "passwd" depois se precisar
@@ -9,6 +9,6 @@
       "networkmanager"
       "wheel"
     ];
-    packages = with pkgs; [ ];
+    packages = [ ];
   };
 }
