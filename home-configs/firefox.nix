@@ -52,6 +52,11 @@
 							title = "Firefox Policies";
 							url = "https://mozilla.github.io/policy-templates/";
 						}
+
+						{
+							title = "Noogle NIX API";
+							url = "https://noogle.dev";
+						}
 					];
 
 					"browser.newtabpage.activity-stream.showSponsoredTopSites" = false;
