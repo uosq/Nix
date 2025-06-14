@@ -9,7 +9,7 @@
     ./hardware-configuration.nix
     ./configs/boot.nix
     ./configs/kernel.nix
-    ./configs/filesystem.nix
+    ./configs/meuhd.nix
     ./configs/network.nix
     ./configs/localizacao.nix
     ./configs/bluetooth.nix
