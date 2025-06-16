@@ -14,7 +14,7 @@
     libreoffice-qt-fresh
     kde-rounded-corners
     git
-    linuxKernel.packages.linux_6_15.xpadneo
+    linuxKernel.packages.linux_xanmod_latest.xpadneo
     r2modman
     vscodium-fhs
     tor-browser-bundle-bin

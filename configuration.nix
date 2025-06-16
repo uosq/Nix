@@ -25,6 +25,7 @@
     ./configs/ssh.nix
     ./configs/sunshine.nix
     ./configs/zerotier.nix
+    ./configs/sudo.nix
 
     # This includes the Lix NixOS module in your configuration along with the
     # matching version of Lix itself.

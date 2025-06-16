@@ -1,5 +1,8 @@
 { pkgs, ... }:
 
 {
-  boot.kernelPackages = pkgs.linuxPackages_6_15;
+  boot.kernelPackages = pkgs.linuxKernel.packages.linux_xanmod_latest;
+  boot.kernel.sysctl = {
+    "vm.swappiness" = 30;
+  };
 }
