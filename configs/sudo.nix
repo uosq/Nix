@@ -1,7 +1,6 @@
 { pkgs, ... }:
 {
   config.environment.systemPackages = [
-    pkgs.sudo.override
-    { withInsults = true; }
+    (pkgs.sudo.override { withInsults = true; })
   ];
 }

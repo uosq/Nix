@@ -1,6 +1,5 @@
 { pkgs, ... }:
 {
-
   stylix = {
     enable = true;
 
@@ -22,6 +21,30 @@
     targets.alacritty.enable = true;
 
     targets.qt.enable = false;
+
+    # no sentido mais literalmente literal
+    # nenhuma fonte mudou aqui
+    fonts = {
+      serif = {
+        package = pkgs.nerd-fonts.terminess-ttf;
+        name = "Terminus";
+      };
+
+      sansSerif = {
+        package = pkgs.nerd-fonts.terminess-ttf;
+        name = "Terminus";
+      };
+
+      monospace = {
+        package = pkgs.nerd-fonts.terminess-ttf;
+        name = "Terminus";
+      };
+
+      emoji = {
+        package = pkgs.noto-fonts-emoji;
+        name = "Noto Color Emoji";
+      };
+    };
 
     fonts.sizes = {
       applications = 10;

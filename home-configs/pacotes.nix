@@ -18,7 +18,6 @@
     r2modman
     vscodium-fhs
     tor-browser-bundle-bin
-    gpu-screen-recorder-gtk
     nixfmt-rfc-style
     nixd
   ];

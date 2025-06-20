@@ -26,6 +26,7 @@
     ./configs/sunshine.nix
     ./configs/zerotier.nix
     ./configs/sudo.nix
+    ./configs/pacotes.nix
 
     # This includes the Lix NixOS module in your configuration along with the
     # matching version of Lix itself.
@@ -63,12 +64,6 @@
   nix.settings.experimental-features = [
     "nix-command"
     "flakes"
-  ];
-
-  environment.systemPackages = with pkgs; [
-    git
-    vim
-    wget
   ];
 
   environment.variables.EDITOR = "nano";
