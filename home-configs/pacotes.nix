@@ -20,6 +20,8 @@
     tor-browser-bundle-bin
     nixfmt-rfc-style
     nixd
+    mangohud
+    mangojuice
   ];
 
 }
