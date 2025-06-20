@@ -27,6 +27,7 @@
     ./configs/zerotier.nix
     ./configs/sudo.nix
     ./configs/pacotes.nix
+    ./configs/stylix.nix
 
     # This includes the Lix NixOS module in your configuration along with the
     # matching version of Lix itself.
