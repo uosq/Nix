@@ -5,14 +5,13 @@
   home.homeDirectory = "/home/tevin";
 
   imports = [
-    ./home-configs/fastfetch.nix
-    ./home-configs/mpd.nix
-    ./home-configs/alacritty.nix
+    ./home-configs/programas/fastfetch.nix
+    ./home-configs/programas/mpd.nix
+    ./home-configs/programas/alacritty.nix
     ./home-configs/aliases.nix
-    ./home-configs/pacotes.nix
+    ./home-configs/programas/pacotes.nix
     ./home-configs/stylix.nix
-    #		./home-configs/gtk.nix
-    ./home-configs/firefox.nix
+    ./home-configs/programas/firefox.nix
   ];
 
   programs.bash.enable = true;

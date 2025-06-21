@@ -7,28 +7,28 @@
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
-    ./configs/boot.nix
-    ./configs/kernel.nix
-    ./configs/meuhd.nix
-    ./configs/network.nix
+    ./configs/boot/systemd-boot.nix
+    ./configs/hardware/kernel.nix
+    ./configs/hardware/meuhd.nix
+    ./configs/rede/network.nix
     ./configs/localizacao.nix
-    ./configs/bluetooth.nix
-    ./configs/steam.nix
-    ./configs/nvidia.nix
-    ./configs/kde.nix
+    ./configs/hardware/bluetooth.nix
+    ./configs/jogos/steam.nix
+    ./configs/hardware/video/nvidia.nix
+    ./configs/ambientes-graficos/kde.nix
     ./configs/cups.nix
-    ./configs/pipewire.nix
-    ./configs/teclado.nix
+    ./configs/hardware/audio/pipewire.nix
+    ./configs/hardware/controles/teclado.nix
     ./configs/usuarios.nix
     ./configs/nano.nix
     ./configs/gpg.nix
-    ./configs/ssh.nix
-    ./configs/sunshine.nix
-    ./configs/zerotier.nix
+    ./configs/rede/ssh.nix
+    ./configs/rede/sunshine.nix
+    ./configs/rede/zerotier.nix
     ./configs/sudo.nix
     ./configs/pacotes.nix
     ./configs/stylix.nix
-    ./configs/xpadneo.nix
+    ./configs/hardware/controles/xpadneo.nix
     ./configs/lix.nix
   ];
 
