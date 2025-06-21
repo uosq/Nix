@@ -7,30 +7,7 @@
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
-    ./configs/boot/systemd-boot.nix
-    ./configs/hardware/kernel.nix
-    ./configs/hardware/meuhd.nix
-    ./configs/rede/network.nix
-    ./configs/localizacao.nix
-    ./configs/hardware/bluetooth.nix
-    ./configs/jogos/steam.nix
-    ./configs/hardware/video/nvidia.nix
-    ./configs/ambientes-graficos/kde.nix
-    ./configs/cups.nix
-    ./configs/hardware/audio/pipewire.nix
-    ./configs/hardware/controles/teclado.nix
-    ./configs/usuarios.nix
-    ./configs/nano.nix
-    ./configs/gpg.nix
-    ./configs/rede/ssh.nix
-    ./configs/rede/sunshine.nix
-    ./configs/rede/zerotier.nix
-    ./configs/sudo.nix
-    ./configs/pacotes.nix
-    ./configs/stylix.nix
-    ./configs/hardware/controles/xpadneo.nix
-    ./configs/lix.nix
-    ./configs/jogos/gamescope.nix
+    ./configs
   ];
 
   # Allow unfree packages

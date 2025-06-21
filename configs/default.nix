@@ -1,0 +1,28 @@
+{
+  imports = [
+    ./boot/systemd-boot.nix
+    ./hardware/kernel.nix
+    ./hardware/meuhd.nix
+    ./rede/network.nix
+    ./localizacao.nix
+    ./hardware/bluetooth.nix
+    ./jogos/steam.nix
+    ./hardware/video/nvidia.nix
+    ./ambientes-graficos/kde.nix
+    ./cups.nix
+    ./hardware/audio/pipewire.nix
+    ./hardware/controles/teclado.nix
+    ./usuarios.nix
+    ./nano.nix
+    ./gpg.nix
+    ./rede/ssh.nix
+    ./rede/sunshine.nix
+    ./rede/zerotier.nix
+    ./sudo.nix
+    ./pacotes.nix
+    ./stylix.nix
+    ./hardware/controles/xpadneo.nix
+    ./lix.nix
+    ./jogos/gamescope.nix
+  ];
+}
