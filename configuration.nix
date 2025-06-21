@@ -30,6 +30,7 @@
     ./configs/stylix.nix
     ./configs/hardware/controles/xpadneo.nix
     ./configs/lix.nix
+    ./configs/jogos/gamescope.nix
   ];
 
   # Allow unfree packages
