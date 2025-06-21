@@ -11,7 +11,6 @@
     ffmpeg-full
     steamtinkerlaunch
     desktop-file-utils
-    libreoffice-qt-fresh
     kde-rounded-corners
     git
     r2modman
