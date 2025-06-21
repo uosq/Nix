@@ -24,7 +24,7 @@
     ./configs/gpg.nix
     ./configs/ssh.nix
     ./configs/sunshine.nix
-    #    ./configs/zerotier.nix
+    ./configs/zerotier.nix
     ./configs/sudo.nix
     ./configs/pacotes.nix
     ./configs/stylix.nix
