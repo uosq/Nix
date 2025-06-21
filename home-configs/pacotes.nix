@@ -22,6 +22,7 @@
     nixd
     mangohud
     mangojuice
+		papirus-nord
   ];
 
 }
