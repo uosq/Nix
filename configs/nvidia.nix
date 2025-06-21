@@ -3,6 +3,7 @@
 {
   hardware = {
     graphics.enable = true;
+    graphics.enable32Bit = true;
 
     nvidia = {
       modesetting.enable = true;
