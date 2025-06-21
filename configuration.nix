@@ -30,7 +30,7 @@
     ./configs/stylix.nix
 
     # This includes the Lix NixOS module in your configuration along with the
-    # matching version of Lix itself
+    # matching version of Lix itsel
 
     # The sha256 hashes were obtained with the following command in Lix (n.b.
     # this relies on --unpack, which is only in Lix and CppNix > 2.18):
