@@ -3,7 +3,7 @@
     # arquivos individuais
     ./pacotes.nix
     ./stylix.nix
-    ./sudo.nix
+    #./sudo.nix
     ./usuarios.nix
     ./localizacao.nix
     ./nano.nix
