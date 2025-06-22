@@ -1,8 +1,15 @@
-{ config, lib, ... }: {
+{ config, lib, ... }:
+let 
+  cfg = config.mods.sys.rede;
+in  {
 
-  options.mods.sys.rede.enable = lib.mkEnableOption "rede";
+  options = {
+    cfg.enable = lib.mkEnableOption "rede";
+    cfg.zerotier.enable = lib.mkEnableOption "zerotier";
+    cfg.ssh.enable = lib.mkEnableOption "ssh";
+  };
 
-  config = lib.mkIf config.mods.sys.rede.enable {
+  config = lib.mkIf cfg.enable {
     hardware.bluetooth = {
       enable = true;
       powerOnBoot = true;
@@ -12,7 +19,7 @@
     networking.networkmanager.enable = true;
 
     services.openssh = {
-      enable = true;
+      enable = lib.mkDefault cfg.ssh.enable;
       startWhenNeeded = true;
     };
 
@@ -23,7 +30,7 @@
       openFirewall = true;
     };
 
-    services.zerotierone.enable = true;
+    services.zerotierone.enable = lib.mkDefault cfg.zerotier.enable;
   };
 
 }

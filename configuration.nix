@@ -34,10 +34,13 @@
     kde.enable = true;
     kernel.enable = true;
     montarhd.enable = true;
-    rede.enable = true;
     steam.enable = true;
     systemd-boot.enable = true;
     video.enable = true;
+
+    rede.enable = true;
+    rede.zerotier.enable = false;
+    rede.ssh.enable = false;
   };
 
   # Allow unfree packages
