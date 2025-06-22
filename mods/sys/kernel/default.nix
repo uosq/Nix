@@ -7,6 +7,7 @@
     boot.kernel.sysctl = {
       "vm.swappiness" = 30;
     };
+    boot.kernelParams = [ "acpi=force" ];
   };
 
 }
