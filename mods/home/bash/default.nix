@@ -5,7 +5,7 @@
   config = lib.mkIf config.mods.home.bash.enable {
     programs.bash.enableCompletion = true;
     programs.bash.enable = true;
-    programs.bash.enableLsColors = true;
+    #programs.bash.enableLsColors = true; essa opção não existe?
 
     home.shellAliases = {
     yt = "/home/tevin/hd/Scripts/download";
