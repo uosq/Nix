@@ -1,5 +1,5 @@
 { config, pkgs, lib, ... }: {
-  options.mods.home.pkgs.pkgs.cli.fastfetch.enable = lib.mkEnableOption "fastfetch";
+  options.mods.home.pkgs.cli.fastfetch.enable = lib.mkEnableOption "fastfetch";
 
   config = lib.mkIf config.mods.home.pkgs.cli.fastfetch.enable {
     home.file.".config/fastfetch/config.jsonc".text = ''
