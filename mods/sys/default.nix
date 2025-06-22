@@ -1,7 +1,5 @@
 {
   imports = [
-    ./lix # auto explicativo
-    
     ./kde # auto explicativo
     
     ./systemd-boot # boot
