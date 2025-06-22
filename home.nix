@@ -5,10 +5,28 @@
   home.homeDirectory = "/home/tevin";
 
   imports = [
-    ./home-configs
+    ./mods/home
   ];
 
-  programs.bash.enable = true;
+  mods.home = {
+    pkgs = {
+
+      cli = {
+        fastfetch.enable = true;
+        mpd.enable = false;
+      };
+
+      gui = {
+        alacritty.enable = true;
+        firefox.enable = true;
+      };
+
+      pacotes.enable = true;
+    };
+
+    stylix.enable = true;
+    bash.enable = true;
+  };
 
   # The state version is required and should stay at the version you
   # originally installed.

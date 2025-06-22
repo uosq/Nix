@@ -1,0 +1,18 @@
+{ config, lib, ... }: {
+
+  options.mods.home.bash.enable = lib.mkEnableOption "bash";
+
+  config = lib.mkIf config.mods.home.bash.enable {
+    programs.bash.enableCompletion = true;
+    programs.bash.enable = true;
+    programs.bash.enableLsColors = true;
+
+    home.shellAliases = {
+    yt = "/home/tevin/hd/Scripts/download";
+    comprimir = "/home/tevin/hd/Scripts/comprimir_video";
+    tirar_lixo = "nix-store --gc";
+    atualizar_sistema = "sudo nixos-rebuild switch";
+    };
+  };
+
+}
