@@ -1,9 +1,15 @@
-{ config, pkgs, lib, ... }: {
+{
+  config,
+  pkgs,
+  lib,
+  ...
+}:
+{
 
   options.mods.home.pkgs.pacotes.enable = lib.mkEnableOption "pacotes";
 
   config = lib.mkIf config.mods.home.pkgs.pacotes.enable {
-      home.packages = with pkgs; [
+    home.packages = with pkgs; [
       fastfetch
       alacritty
       prismlauncher

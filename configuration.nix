@@ -77,7 +77,7 @@
   };
 
   programs.nano.nanorc = ''
-  set tabsize 2
+    set tabsize 2
   '';
 
   stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/nord.yaml";
