@@ -38,9 +38,11 @@
     systemd-boot.enable = true;
     video.enable = true;
 
-    rede.enable = true;
-    rede.zerotier.enable = false;
-    rede.ssh.enable = false;
+    rede = {
+      enable = true;
+      zerotier.enable = false;
+      ssh.enable = false;
+    };
   };
 
   # Allow unfree packages

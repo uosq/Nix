@@ -4,9 +4,9 @@ let
 in  {
 
   options = {
-    cfg.enable = lib.mkEnableOption "rede";
-    cfg.zerotier.enable = lib.mkEnableOption "zerotier";
-    cfg.ssh.enable = lib.mkEnableOption "ssh";
+    mods.sys.rede.enable = lib.mkEnableOption "rede";
+    mods.sys.rede.zerotier.enable = lib.mkEnableOption "zerotier";
+    mods.sys.rede.ssh.enable = lib.mkEnableOption "ssh";
   };
 
   config = lib.mkIf cfg.enable {
