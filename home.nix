@@ -13,7 +13,7 @@
 
       cli = {
         fastfetch.enable = true;
-        mpd.enable = false;
+        mpd.enable = true;
       };
 
       gui = {
