@@ -29,6 +29,7 @@
       mangohud
       mangojuice
       papirus-nord
+      libreoffice-qt-fresh
     ];
   };
 
