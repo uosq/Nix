@@ -30,6 +30,7 @@
       mangojuice
       papirus-nord
       libreoffice-qt-fresh
+      telegram-desktop
     ];
   };
 
