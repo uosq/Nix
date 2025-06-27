@@ -1,4 +1,10 @@
-{ config, lib, pkgs, ... }: {
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
+{
   options.mods.home.stylix.enable = lib.mkEnableOption "stylix";
 
   config = lib.mkIf config.mods.home.stylix.enable {
@@ -10,18 +16,18 @@
 
       fonts = {
         serif = {
-        package = pkgs.nerd-fonts.terminess-ttf;
-        name = "Terminus";
+          package = pkgs.nerd-fonts.terminess-ttf;
+          name = "Terminess Nerd Font";
         };
 
         sansSerif = {
           package = pkgs.nerd-fonts.terminess-ttf;
-          name = "Terminus";
+          name = "Terminess Nerd Font";
         };
 
         monospace = {
           package = pkgs.nerd-fonts.terminess-ttf;
-          name = "Terminus";
+          name = "Terminess Nerd Font";
         };
 
         emoji = {
