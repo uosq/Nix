@@ -42,6 +42,7 @@
     git
     wget
     gpu-screen-recorder-gtk
+    editline
   ];
 
   time.timeZone = "America/Sao_Paulo";
