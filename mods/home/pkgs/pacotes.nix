@@ -30,8 +30,6 @@
       mangojuice
       papirus-nord
       libreoffice-qt-fresh
-      wineWowPackages.stable
-      winetricks
     ];
   };
 
