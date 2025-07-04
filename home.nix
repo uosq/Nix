@@ -24,7 +24,6 @@
       pacotes.enable = true;
     };
 
-    stylix.enable = true;
     bash.enable = true;
   };
 
