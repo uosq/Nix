@@ -11,18 +11,18 @@
 
     fonts = {
       serif = {
-        package = pkgs.nerd-fonts.terminess-ttf;
-        name = "Terminess Nerd Font";
+        package = pkgs.nerd-fonts.jetbrains-mono;
+        name = "JetBrainsMono Nerd Font";
       };
 
       sansSerif = {
-        package = pkgs.nerd-fonts.terminess-ttf;
-        name = "Terminess Nerd Font";
+        package = pkgs.nerd-fonts.jetbrains-mono;
+        name = "JetBrainsMono Nerd Font";
       };
 
       monospace = {
-        package = pkgs.nerd-fonts.terminess-ttf;
-        name = "Terminess Nerd Font";
+        package = pkgs.nerd-fonts.jetbrains-mono;
+        name = "JetBrainsMono Nerd Font";
       };
 
       emoji = {
@@ -31,10 +31,10 @@
       };
 
       sizes = {
-        applications = 12;
-        desktop = 12;
-        popups = 12;
-        terminal = 12;
+        applications = 10;
+        desktop = 10;
+        popups = 10;
+        terminal = 10;
       };
     };
 

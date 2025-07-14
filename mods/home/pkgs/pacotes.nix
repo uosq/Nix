@@ -23,13 +23,12 @@
       git
       r2modman
       vscodium-fhs
-      tor-browser-bundle-bin
+#      tor-browser-bundle-bin
       nixfmt-rfc-style
       nixd
       mangohud
       mangojuice
       papirus-nord
-      libreoffice-qt-fresh
     ];
   };
 
