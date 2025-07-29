@@ -13,6 +13,9 @@
       url = "github:nix-community/stylix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    lsfg-vk-flake.url = "github:pabloaul/lsfg-vk-flake/main";
+    lsfg-vk-flake.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs =
@@ -28,6 +31,7 @@
         modules = [
           stylix.nixosModules.stylix
           ./configuration.nix
+          lsfg-vk-flake.nixosModules.default
 
           home-manager.nixosModules.home-manager
           {
